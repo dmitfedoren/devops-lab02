@@ -1,0 +1,1 @@
+const http = require('http'); const PORT = process.env.PORT || 3000; http.createServer((req, res) => { res.writeHead(200, {'Content-Type': 'text/html; charset=utf-8'}); res.end('<!DOCTYPE html><html><head><meta charset="utf-8"></head><body><h1>Лабораторна робота № 2 · DevOps — Федоренко Дмитро Олегович, гр. ПЗ-2304 (ЧДТУ)</h1></body></html>'); }).listen(PORT);
